@@ -1,0 +1,64 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Pattaya&family=Roboto&display=swap');
+
+body {
+    background-image: linear-gradient(15deg, rgba(71, 123, 237, 0.5), rgba(71, 123, 237, 0.1)), url(data/yulia-matvienko-kgz9vsP5JCU-unsplash.jpg);
+    background-size:cover, cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
+    color:azure;
+    text-align: center
+}
+
+#title {
+    font-family: 'Pattaya', sans-serif;
+    margin: auto;
+}
+
+#description {
+    margin-top: 0;
+}
+
+#survey-form {
+    background-color: rgba(71, 123, 237, 0.85);
+    text-align: left;
+    width: 30vw;
+    margin: auto;
+    padding: 2%;
+    border-radius:2%;
+    
+
+}
+
+#name, #name-label, #email, #email-label, #number, #number-label, #radio label, #checkbox label, #comentario-label, textarea, #dropdown label, #dropdown select{
+    display: block;
+    width: 100%;
+}
+
+#name-label, #email-label, #number-label, #dropdown p, #checkbox p, #radio p, #comentario-label {
+    margin-top: 1.25em;
+    margin-bottom: 0.5em;
+}
+
+input{
+    box-sizing:border-box;
+    border-radius: 2%;
+    padding:1%;
+}
+#dropdown ul {
+    list-style: none;
+    background-color: antiquewhite;
+    color:grey;
+    padding:1%;
+    margin-top:0;
+}
+
+#dropdown .answer {
+    display: none;
+}
+
+#dropdown ul:hover ~ #dropdown .answer {
+    display: block;
+}

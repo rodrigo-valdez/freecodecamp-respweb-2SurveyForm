@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Survey Form</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+    </head>
+    <body>
+        <h1 id="title">¡Gracias por participar en la encuesta!</h1>
+        <p id="description">¡Gracias por participar en la encuesta!</p>
+        <form id="survey-form">
+                          
+                <label id="name-label" >Nombre</label>
+                <input id="name" type="text" placeholder="Nombre" required>
+                <label id="email-label">Ingrese su e-mail:</label>
+                <input id="email" type="email" placeholder="email" required>
+                <label id="number-label">Edad (opcional)</label>
+                <input id="number" type="number" placeholder="Nombre" min="5" max="120">
+
+                <div id="dropdown">
+                    <p>Hola vite</p>
+                    <label for= "movie">¿Cuál fue tu película favorita?</label>
+                    <select for="movie" id="drop">
+                        <option value="MoS">Man of steel</option>
+                        <option value="BvS">Batman vs Superman</option>
+                        <option value="BvS">Batman vs Superman</option>
+                        <option value="BvS">Batman vs Superman</option>
+                        <option value="BvS">Batman vs Superman</option>
+                    </select>
+
+                </div>
+
+                <div id="radio">
+                    <p>¿Cuál es tu superhéroe favorito?</p>
+                    <label for="boton-radio"><input name="boton-radio" type="radio">Batman</label>
+                    <label for="boton-radio"><input name="boton-radio" type="radio">Superman</label>
+                    <label for="boton-radio"><input name="boton-radio" type="radio">Flash</label>
+                    <label for="boton-radio"><input name="boton-radio" type="radio">Wonder Woman</label>
+                    <label for="boton-radio"><input name="boton-radio" type="radio">Cyborg</label>
+                    <label for="boton-radio"><input name="boton-radio" type="radio">Aquaman</label>
+                </div>
+                <div id="checkbox">
+                    <p>¿Qué superpoder te gustaría tener?</p>
+                    <label for="checkk"><input type="checkbox" name="checkk" value="superfueza">Super...(fuerza, velocidad, pectorales, etc?) </label>
+                    <label for="checkk"><input type="checkbox" name="checkk" value="speedforce">Usar la "speedforce" (como Flash)</label>
+                    <label for="checkk"><input type="checkbox" name="checkk" value="lazo">Obligar a decir la verdad (con el Lazo)</label>
+                    <label for="checkk"><input type="checkbox" name="checkk" value="aqua">Hablar con los peces</label>
+                    <label for="checkk"><input type="checkbox" name="checkk" value="cyb">Manejar el mundo digital (como Cyborg)</label>
+                    <label for="checkk"><input type="checkbox" name="checkk" value="plata">Ser rico. Digo, Batman</label>
+                    <label for="checkk"><input type="checkbox" name="checkk" value="bolu">Atender boludos</label>
+                </div>
+                
+                <label id="comentario-label">¿Tenés algún comentario? Dejalo acá</label>
+                <textarea></textarea>
+                
+
+                <br><button>Enviar</button>
+
+        </form>
+
+    </body>
+</html>
