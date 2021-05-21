@@ -3,9 +3,10 @@
     <head>
         <title>Survey Form</title>
         <link rel="stylesheet" href="style.css" type="text/css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
-        <h1 id="title">¡Gracias por participar en la encuesta!</h1>
+        <h1 id="title">Encuesta DCEU</h1>
         <p id="description">¡Gracias por participar en la encuesta!</p>
         <form id="survey-form">
                           
@@ -14,29 +15,28 @@
                 <label id="email-label">Ingrese su e-mail:</label>
                 <input id="email" type="email" placeholder="email" required>
                 <label id="number-label">Edad (opcional)</label>
-                <input id="number" type="number" placeholder="Nombre" min="5" max="120">
+                <input id="number" type="number" placeholder="Edad" min="5" max="120">
 
                 <div id="dropdown">
-                    <p>Hola vite</p>
                     <label for= "movie">¿Cuál fue tu película favorita?</label>
                     <select for="movie" id="drop">
                         <option value="MoS">Man of steel</option>
                         <option value="BvS">Batman vs Superman</option>
-                        <option value="BvS">Batman vs Superman</option>
-                        <option value="BvS">Batman vs Superman</option>
-                        <option value="BvS">Batman vs Superman</option>
+                        <option value="BvS">Wonder Woman</option>
+                        <option value="BvS">Zack Snyder's Justice League</option>
+                        <option value="BvS">Aquaman</option>
                     </select>
 
                 </div>
 
                 <div id="radio">
                     <p>¿Cuál es tu superhéroe favorito?</p>
-                    <label for="boton-radio"><input name="boton-radio" type="radio">Batman</label>
-                    <label for="boton-radio"><input name="boton-radio" type="radio">Superman</label>
-                    <label for="boton-radio"><input name="boton-radio" type="radio">Flash</label>
-                    <label for="boton-radio"><input name="boton-radio" type="radio">Wonder Woman</label>
-                    <label for="boton-radio"><input name="boton-radio" type="radio">Cyborg</label>
-                    <label for="boton-radio"><input name="boton-radio" type="radio">Aquaman</label>
+                    <label for="boton-radio"><input name="boton-radio" type="radio" value="Batman">Batman</label>
+                    <label for="boton-radio"><input name="boton-radio" type="radio" value="Superman">Superman</label>
+                    <label for="boton-radio"><input name="boton-radio" type="radio" value="Flash">Flash</label>
+                    <label for="boton-radio"><input name="boton-radio" type="radio" value="WW">Wonder Woman</label>
+                    <label for="boton-radio"><input name="boton-radio" type="radio" value="Cyborg">Cyborg</label>
+                    <label for="boton-radio"><input name="boton-radio" type="radio" value="Aqua">Aquaman</label>
                 </div>
                 <div id="checkbox">
                     <p>¿Qué superpoder te gustaría tener?</p>
@@ -53,9 +53,10 @@
                 <textarea></textarea>
                 
 
-                <br><button>Enviar</button>
+                <br><button id="submit">Enviar</button>
 
         </form>
 
     </body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </html>
